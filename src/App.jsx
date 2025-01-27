@@ -23,12 +23,12 @@ function App() {
     <>
       <div className='header-app'>
         <h1>
-          <a href="https://github.com/cookpete/react-player">React Player</a>
+          <a href="https://github.com/cookpete/react-player" target='_blank'>React Player</a>
         </h1>
         <p>Aprendiendo a utilizar React Player: es un componente para reproducir videos y audios, es muy fácil de usar.</p>
         <q>Es mantenido por <portal><a href="https://www.mux.com/">Mux</a></portal></q>
         <form className='form-link' onSubmit={handleLink}>
-          <input type="url" name="link-video" id="link-video" placeholder='Link del video' />
+          <input type="url" name="link-video" id="link-video" autoComplete="off" placeholder='Link del video' />
           <button type="submit">Cargar</button>
         </form>
       </div>
